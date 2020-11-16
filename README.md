@@ -34,13 +34,13 @@ Then the problem comes as how to optimally route service demands based on comput
 
 Most current practices uses random or round robin way or use geographically closest one to decide the edge to handle the service demand. It considers the static characteristics like aliveness and geographical distance of edges. Dynamic status like computing load and network path status are not taken into account. In addition, the practices usually determine the best edge in respect to the computing and networking aspects separately rather than jointly.  
 
-CFN-Dyncast (dynamic ancyast) tries to route the computing service demands based on computing and network metrics at the same time at the network layer. Three features are identified to be supported:
+CFN-Dyncast (dynamic ancyast) tries to route the computing service demands based on computing and network metrics jointly at the network layer to improve the efficiency and latency. Three features are to be supported:
 * Anycast based service addressing methodology 
 * Flow affinity
 * Computing Aware Routing
 
-CNF-Dyncast could focus on:
-* Specification of CFN dyncast framework and functional components 
+CNF-Dyncast tries to focus on:
+* Specification of CFN-dyncast framework and functional components 
 * Reuse existing IETF protocols when possible. Define protocol extensions when needed or introduce a new protocol when necessary including features like:
   - Represent computing metrics in defined service/service instance context 
   - Distribute the metrics, format and how dynamic/frequent the updates should be
