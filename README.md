@@ -7,7 +7,12 @@ Wed (Nov 18) , 75min, 5 min after plenary ends
   - Bangkok Time (UTC+7) 17:45 - 19:00
   - CST (UTC+8) 18:45 - 20:00
   - PST (UTC-8) 02:45 - 04:00
+
 Information also available on side meeting wiki: https://trac.ietf.org/trac/ietf/meeting/wiki/109sidemeetings
+
+Webex Meeting number (access code): 175 335 6387 
+Password:7wrDVwRt7B4
+Password if joining from a phone: 79738978
 
 Webex: https://fipe-meeting.my.webex.com/fipe-meeting.my/j.php?MTID=m2e7d90ec32145ba12f4a6b7e8baf3bcd
 
